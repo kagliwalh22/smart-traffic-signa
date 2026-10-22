@@ -1,0 +1,23 @@
+# Virtual Environments
+venv/
+**/venv/
+**/.venv/
+vision/venv/
+__pycache__/
+*.pyc
+**/*.pyc
+**/.pytest_cache/
+
+# Ignore duplicate root weights (models are stored in vision/)
+/best.pt
+/yolov8n.pt
+
+# Node Dependencies & Builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# OS specific files
+.DS_Store
+Thumbs.db
